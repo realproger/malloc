@@ -148,9 +148,9 @@ void test()
     w_free(foo);
     w_free(bar);
 
-    char* another = w_malloc(4);
-    strcpy(another, "another");
-    printf("Address: [%p], data: [%s]\n", another, another);
+    // char* another = w_malloc(4);
+    // strcpy(another, "another");
+    // printf("Address: [%p], data: [%s]\n", another, another);
 
 
 }
